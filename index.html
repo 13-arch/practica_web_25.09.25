@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <button onclick="color_change('red')">RED</button>
-    <button onclick="color_change('green')">GREEN</button>
-    <button onclick="color_change('blue')">BLUE</button>
-    <button onclick="color_change('random')">RANDOM</button>
-    <script src="main.js"></script>
-    
+    <input id="input_to_list" type="text">
+    <button id="button" onclick="toDoList()">write</button>
+    <div id="task_list"></div>
+    <script src="script.js"></script> 
 </body>
 </html>
