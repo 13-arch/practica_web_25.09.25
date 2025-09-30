@@ -2,7 +2,6 @@ let input = document.getElementById('input_to_list')
 let parentElement = document.getElementById('task_list')
 function toDoList() {
     let newDiv = document.createElement('p');
-    
     newDiv.textContent = input.value;
     parentElement.appendChild(newDiv);
     input.value = ' ';

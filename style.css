@@ -1,6 +1,7 @@
 body{
     background-image: url(Crazy_Frog.jpg);
     background-size:1440px ;
+    font-size: 20px
 }
 .in{
     background-color: aquamarine;
@@ -12,11 +13,13 @@ body{
     padding: 15px 30px;
     background-color: blue;
     border: none;
-    color: white;
+    color: plum;
     border-radius: 70%;
+    font-size: 20px
 }
 .div1{
     padding: 200px 0 0 500px;
+    
 }
 .list{
     color:aqua ;
@@ -25,12 +28,14 @@ body{
     background-color: red;
     border-color: blue;
     color: chartreuse;
+    font-size: 20px
 }
 .red{
     margin-left: 15px;
     background-color:darkorange;
     color: fuchsia;
     border: none;
+    font-size: 20px
 }
 .check:checked{
     accent-color: hotpink;
@@ -38,3 +43,31 @@ body{
     background-color: #4caf50;
     border-color: #4caf50
 }
+.checked{
+    text-decoration: line-through;
+}
+.edit-input {
+    padding: 6px 10px;
+    margin-right: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: #ffe4ec;
+  }
+  
+  .edit-input:focus {
+    border-color: #e91e63;
+  }
+  .save-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  
